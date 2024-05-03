@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screen3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="@string/appName"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"/>
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Current Score : 0"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <ImageButton
+        android:id="@+id/btnShareScore"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/baseline_share_white_36"
+        android:background="@drawable/screen1_button_bg"
+        android:padding="15dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

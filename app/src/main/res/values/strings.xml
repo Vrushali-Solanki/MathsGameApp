@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JustMaths</string>
+    <string name="time">TIME: 04</string>
+    <string name="score">SCORE: 0</string>
+    <string name="numbers">23 + 42</string>
+    <string name="sum"> = 65</string>
+    <string name="appName">Just Maths</string>
+</resources>
